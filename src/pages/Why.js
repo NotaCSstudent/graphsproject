@@ -9,32 +9,37 @@ export function Why()
         <Fade top>
         <div className='box'>
         <div className='content'>
+          
       <h1>We can use graph theory to explore the brain</h1>
       
-        <h2>
+        <h1>
           Why?
-        </h2>
+        </h1>
+        <div className='smallbox'>
+        <div className='grid'>
         <p>
           We can model the brain more easily using graph theory.
           By doing that, we can easily explore the brain.
 
-          <br/>
-          <br/>
+          
           </p>
-
+          <p>
+            It will give us a systematic approach to studying diseases
+          </p>
+          </div>
+          </div>
           
           <h1>
-            What type of graph can we use?
+            We can use Neural Networks to model the brain
           </h1>
+          <h3>
+            You can use various other graphs to study smaller parts of the brain
+          </h3>
           
-            <h2>
-              Directed graph (DG)
-            </h2>
-            <p>
-              We can use various different types of graphs, but for our use case we will use a directed graph.
-              <br/>
+           
             
-              </p>
+            
+              
             
               <img src={pic}/>
               

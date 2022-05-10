@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -31,6 +35,33 @@ code {
   
   width: 100%;
 
+  font-family: 'roboto', sans-serif;
+  
+  
+  color: white;
+  
+  position: relative;
+  opacity: 25.9;
+  
+  font-size: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+ 
+ 
+
+
+}
+
+
+.container2 {
+ 
+  
+  width: 100%;
+
   
   
   
@@ -41,7 +72,7 @@ code {
   
   font-size: 3vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   
@@ -53,10 +84,75 @@ code {
 
 
 
+.container2 .box2 
+{
+ 
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.93);
+  width: 65%;
+  flex-direction: column;
+  
+  font-size: 65%;
+  border-radius: 5vh;
+  font-weight: bolder;
+  box-shadow: 32px 32px 32px rgba(255, 255, 255, 0.5);
+
+
+  
+ 
+ 
+
+
+}
+
+
+.welcomescreen
+{
+ 
+  
+  background-color: #04060c;
+  
 
 
 
+  font-family: 'roboto', sans-serif;
+  
+  
+  color: white;
+  
+  width: 200%;
+  opacity: 25.9;
+  display: flex;
+  font-size: 3vh;
+  position: relative;
+  
+  
+}
 
+
+.welcomescreen .box
+{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.95);
+  
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: 50%;
+  border-radius: 10vh;
+  font-weight: bolder;
+
+}
+.container .box3 img
+{
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
 
 .container .section {
   display: flex;
@@ -74,7 +170,42 @@ code {
 }
 
 
+
+
+.container .box3
+{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.95);
+  
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 90vh;
+  height : 50vh;
+  font-size: 100%;
+  border-radius: 10vh;
+  font-weight: bolder;
+}
+.container .box3 h1
+{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
 .container .section:nth-child(1){
+  
+  background-image: url(assets/1_dCDgJXIStlhz9v8anDeiRw.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+
+}
+
+.container .section:nth-child(2){
   
   background-image: url(./assets/AdobeStock_237619432-scaled.jpeg);
   background-size: cover;
@@ -83,7 +214,7 @@ code {
 
 }
 
-.container .section:nth-child(2){
+.container .section:nth-child(3){
   background-size:cover;
   background-color: #638aff;
   background-image: url(./assets/Human-Brain-Memories-Neurons.jpeg);
@@ -92,15 +223,17 @@ code {
 
 
 
-.container .section:nth-child(3){
+.container .section:nth-child(4){
   background-size:cover;
-  background-color: #4563c0;
+  background-color: #3b3c40;
+
+
   
   
 }
 
 
-.container .section:nth-child(4){
+.container .section:nth-child(5){
   background-size:cover;
   background-color: #4563c0;
   
@@ -111,11 +244,12 @@ code {
 
 .container .box {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.80);
-  width: 65%;
+  background-color: rgba(0, 0, 0, 0.95);
+  width: 70%;
+  
   flex-direction: column;
   padding: 3vh;
-  font-size: 62%;
+  font-size: 50%;
   border-radius: 5vh;
   font-weight: bolder;
   box-shadow: 32px 32px 32px rgba(255, 255, 255, 0.5);
@@ -124,6 +258,9 @@ code {
   
   
 }
+
+
+
 
 
 .container .box .content
@@ -158,7 +295,48 @@ code {
 
 
 img{
-  width: 100%;
-  height: 80%;
+  width: 80%;
+  height: 100%;
+
+}
+
+.container img{
+  width: 40vh;
+  
+}
+
+
+.container .box .content .smallbox
+{
+  width: 50%;
+  padding: 1vh;
+  margin: 3vh;
+  
+  
+  
+}
+
+
+.container .box .content .smallbox .grid
+{
+  display: flex;
+  
+  
+  
+}
+
+.container .box .content .grid {
+  display: flex;
+}
+
+.container .box .content .grid p{
+  font-size: 2.4vh;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  text-align: center;
+  
+
+  justify-content: space-between;
 
 }

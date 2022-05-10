@@ -34,10 +34,14 @@ export function Description() {
                 <br/>
                 
               </p>
-              <h2> weights </h2>
+              <h2> Weights </h2>
               <p>
                 Weights are used to indicate the relative importance of an edge.
                 <br/>
+              </p>
+              <h2>Neural Network</h2>
+              <p>
+              Artificial neural networks, usually simply called neural networks, are computing systems inspired by the biological neural networks that constitute animal brains. 
               </p>
               </div>
           </div>

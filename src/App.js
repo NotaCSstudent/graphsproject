@@ -7,7 +7,8 @@ import { Why } from './pages/Why';
 import Gramphs from './pages/GraphDetail';
 import { HumanMemory } from './pages/HumanMemory'
 import { CrucialGraph } from './pages/CrucialGraph';
-
+import { Fade } from 'react-reveal';
+import {Welcome} from './pages/Welcome'
 
 
 
@@ -17,27 +18,36 @@ import { CrucialGraph } from './pages/CrucialGraph';
 const App = () => {
   return (
     <div>
+      <head>
+        <title> Graph Brain</title>
+      </head>
       <div className='container'>
 
-
+        <div className='section'>
+        <Welcome />
+        </div>
 
           <div className='section'>
+            <Fade>
             <Description />
+            </Fade>
           </div>
           <div className='section'>
-           
+          <Fade>
           <Why />
+          </Fade>
           </div>
           <div className='section'>
+          <Fade>
             <Gramphs />
-            <DisGraph />
+            </Fade>
             </div>
             <div className='section'>
+              <Fade>
               <HumanMemory />
-
+              </Fade>
             </div>
             <div className='section'>
-
               <CrucialGraph />
             </div>
             
