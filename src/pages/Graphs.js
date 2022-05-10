@@ -29,9 +29,9 @@ export const DisGraph = () => {
         
         graph = new G6.Graph({
           container: ref.current,
-          width: 700,
-          height: 400,
-          plugins: [minimap],
+          width: 1400,
+          height: 800,
+          //plugins: [minimap],
           modes: {
             default: ['drag-canvas', 'zoom-canvas','drag-node', 'drag-edge'],
           },
